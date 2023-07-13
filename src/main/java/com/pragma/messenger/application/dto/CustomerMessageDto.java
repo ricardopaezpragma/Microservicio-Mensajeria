@@ -6,4 +6,5 @@ import lombok.Data;
 public class CustomerMessageDto {
     private Integer orderId;
     private String customerPhone;
+    private String pin;
 }

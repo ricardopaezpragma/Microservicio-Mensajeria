@@ -3,9 +3,9 @@ package com.pragma.messenger.domain.model;
 public class CustomerMessage {
     private Integer orderId;
     private String customerPhone;
-    private Integer pin;
+    private String pin;
 
-    public CustomerMessage(Integer orderId, String customerPhone, Integer pin) {
+    public CustomerMessage(Integer orderId, String customerPhone, String pin) {
         this.orderId = orderId;
         this.customerPhone = customerPhone;
         this.pin = pin;
@@ -27,11 +27,11 @@ public class CustomerMessage {
         this.customerPhone = customerPhone;
     }
 
-    public Integer getPin() {
+    public String getPin() {
         return pin;
     }
 
-    public void setPin(Integer pin) {
+    public void setPin(String pin) {
         this.pin = pin;
     }
 }
